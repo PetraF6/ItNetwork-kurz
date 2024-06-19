@@ -1,0 +1,14 @@
+Ceníme práci na projektu! 🏆 Prohlédli jsme si kód a máme k němu následující poznámky:
+
+1. Pojmenování identifikátorů - v pořádku, názvy tříd, metod a proměnných jsou smysluplné a odpovídají jejich funkci, ovsem misto "NovyPojisteny" bych zvolil napr. "Osoba" nebo "Pojistenec"
+2. Dodržení principů SRP a SoC - v pořádku, kód je dobře strukturovaný, metodě pro přidávání pojišěnce bych spíše přidával hotový objekt osoby, než vytvářet instanci uvnitř dané metody
+3. Vhodný výběr datových typů - ok, pro rychlé vyhledávání pojištěnce by se dal místo datového typu List použít Dictionary
+4. Formátování kódu - ok
+5. Duplicitní kód a nekonečné cykly - 
+6. Validace vstupních dat - neprobíhá v požadované míře, v aktuálnbí podobě lze vytvořit pojištěnce se jméném "@3", příjmením "007", věkem "-55" a tel. číslem "a"
+7. Logičnost a složitost - ok
+8. Komentáře - ok
+9. Celkové hodnocení - Program je pěkně napsaný, logicky strukturovaný a přehledný. Chybí řádná validace vstupních dat, ta by se mohla přidat v rámci getterů a setterů atributů třídy "NovyPojisiteny". Dobrá práce!
+                      
+
+Doporučujeme případné výtky v kódu opravit, abyste jej mohli pak prezentovat budoucímu zaměstnavateli v co nejlepší kvalitě. Pokud byste potřebovali s čímkoli pomoci, naplánujte si s námi konzultaci, rádi vám poradíme!
